@@ -18,6 +18,10 @@ body{
     margin:0;
     background-color: #f4f4f4F4;
 }
+a{
+    text-decoration: none;
+    color:#a8491d;
+}
 .button_1{
     height:30px;
     background:#a8491d;
