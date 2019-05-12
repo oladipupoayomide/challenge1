@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -204,6 +203,7 @@ label {
 .note {
     font-size: .8em;
 }
+
 .container1{
     width:80%;
     margin:auto;
