@@ -209,8 +209,3 @@ label {
     overflow: hidden;
 }
 
-#showcase{
-    min-height:400px;
-    background:url(../images/sampleimages/backgroundover.PNG) no-repeat ;
-    background-size: cover;
-}
