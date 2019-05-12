@@ -1,4 +1,7 @@
 
+@media (min-width:600px) {
+
+    
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -209,3 +212,6 @@ label {
     overflow: hidden;
 }
 
+
+
+}
