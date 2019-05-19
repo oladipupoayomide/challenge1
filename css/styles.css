@@ -1,6 +1,9 @@
+@media screen and (max-width:992px) {}
 
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
 
  html,body{
    
@@ -10,18 +13,36 @@
     padding: 0;
     margin:0;
     background-color: #f4f4f4F4;
+
+
 }
+
+@media(max-width: 480px) and (min-width: 1000px)
+{
+    #bodcon{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%
+    }
+}
+
 body{
+   
    
     font:15px/1.5 ;
     padding: 0;
     margin:0;
     background-color: #f4f4f4F4;
+
 }
+
 a{
     text-decoration: none;
     color:#a8491d;
 }
+
+
+
 .button_1{
     height:30px;
     background:#a8491d;
@@ -30,11 +51,17 @@ a{
     padding-right: 20px;
     color:#ffffff;
 }
+
+
+
+
 .container{
     width:80%;
     margin:auto;
     overflow:hidden;
 }
+
+
 header{
     background:#35424a;
     color:#ffffff;
@@ -42,6 +69,7 @@ header{
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
+
 header a{
     color: #ffffff;
     text-decoration: none;
@@ -88,7 +116,7 @@ header nav{
   .grid > div:nth-child(odd){
       background:#ddd;
   }
- 
+
 
 .content-section{
     margin:1em;
@@ -203,7 +231,6 @@ label {
 .note {
     font-size: .8em;
 }
-
 .container1{
     width:80%;
     margin:auto;
