@@ -129,12 +129,6 @@ footer{
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    
-    grid-gap: 15px;
-    @media screen and (max-width: 600px){
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
 }
 .grid1 >div{
     background: #eee;
