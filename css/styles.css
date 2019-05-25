@@ -236,3 +236,11 @@ label {
         grid-template-rows: auto;
     }
 }
+
+@media screen and (max-width: 600px){
+#newsletter{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+}
