@@ -1,4 +1,6 @@
-@media screen and (max-width:992px) {}
+@media screen and (max-width:600px) {
+
+}
 
 @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
@@ -17,14 +19,6 @@
 
 }
 
-@media(max-width: 480px) and (min-width: 1000px)
-{
-    #bodcon{
-        display: flex;
-        flex-wrap: wrap;
-        width: 50%
-    }
-}
 
 body{
    
@@ -106,7 +100,6 @@ header nav{
     display:grid;
     grid-template-columns: 70% 30%;
     grid-column-gap: 1em;
-
 }
 
  .grid > div{
@@ -138,6 +131,10 @@ footer{
     margin-left: 50px;
     
     grid-gap: 15px;
+    @media screen and (max-width: 600px){
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 }
 .grid1 >div{
     background: #eee;
@@ -239,3 +236,9 @@ label {
 
 
 
+@media screen and (max-width: 600px){
+    .grid, .grid1{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
